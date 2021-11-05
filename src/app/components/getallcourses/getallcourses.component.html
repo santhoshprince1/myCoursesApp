@@ -1,0 +1,13 @@
+<div *ngFor="let course of courseList">
+    <div class="card">
+        <div class="card-body">
+          <div>{{course.courseName}}</div>
+          <div>{{course.startDate}}</div>
+          <div>{{course.endDate}}</div>
+          <div>{{course.required}}</div>
+          <div>{{course.progress}}</div>
+          <div>{{"Duration="+course.duration.hours+":"+course.duration.minutes+"hrs"}}</div>
+        </div>
+      </div>
+</div>
+
